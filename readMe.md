@@ -1,6 +1,6 @@
 TP-Final 1W1 - Mise en Page Web par: Dylan Carle
 
-Lien du site GitHub: https://github.com/Dylan-Carle/TP-Final_1W1.git
+Lien du site GitHub: https://dylan-carle.github.io/TP-Final_1W1/
 
 Liens pour les images:
     Diablo IV: https://diablo4.blizzard.com/en-us/ 
