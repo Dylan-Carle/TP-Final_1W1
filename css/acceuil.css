@@ -1,0 +1,81 @@
+#haut>div{
+    margin: 0 auto;
+}
+nav{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    position: fixed;
+    z-index: 10;
+    background-image: url('../images/navFond.png');
+    background-position: center;
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li{
+    color: white;
+    transition: all 0.2s ease;
+}
+li:hover{
+    transform: scale(2);
+}
+nav a{
+    text-decoration: none;
+    transition: all 0.2s ease;
+    color: white;
+    font-size: 20pt;
+}
+nav a:hover{
+    background-color: purple;
+    color: white;
+    outline: 2px solid black;
+}
+nav a:focus{
+    background-color: crimson;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+    font-size: 48pt;
+    text-shadow: 6px 6px crimson;
+    font-family: 'Zen Dots', cursive;
+    width: 100%;
+    padding-top: 15%;
+}
+header>div{
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+    /*Div contenant le logo du collège et texte*/
+header>div>div:nth-of-type(1){
+    font-size: 16pt;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    text-shadow: 3px 3px crimson;
+    padding-top: 20%;
+}
+    /*Description du projet*/
+header>div>div:nth-of-type(2){
+    width: 40%;
+    text-shadow: 2px 2px crimson;
+    padding-top: 20%;
+}
+header img{
+    width: 30%;
+    padding-right: 10px;
+}

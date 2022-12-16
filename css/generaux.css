@@ -1,0 +1,33 @@
+
+        /*****css pour les balises généraux******/
+
+/*Importation des fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+/*Remise a zero supplementaire*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Defilement graduel*/
+html{
+    scroll-behavior: smooth;
+}
+
+/*Faire disparaitre la barre de defilement horizontalement et vertical pour Chrome et Edge*/
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    color: white;
+}
+/*Pour Safari et FireFox*/
+body::-webkit-scrollbar{
+    display: none;
+}
+header, #tableau, #articles, #galerie, #videos,#inscription, footer{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/fond.png');
+}
